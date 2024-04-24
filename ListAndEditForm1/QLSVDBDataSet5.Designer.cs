@@ -532,11 +532,11 @@ namespace ListAndEditForm1 {
                 this.columnId.Unique = true;
                 this.columnfname.MaxLength = 10;
                 this.columnlname.MaxLength = 10;
-                this.columnemail.MaxLength = 30;
+                this.columnemail.MaxLength = 50;
                 this.columngender.MaxLength = 10;
                 this.columnphone.MaxLength = 10;
                 this.columnaddress.MaxLength = 10;
-                this.columnSelectedCourse.MaxLength = 30;
+                this.columnSelectedCourse.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

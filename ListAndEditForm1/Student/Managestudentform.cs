@@ -173,6 +173,7 @@ namespace ListAndEditForm1
             string fname = TextBoxFname.Text;
             string lname = TextBoxLname.Text;
             DateTime bdate = dateTimePicker1.Value;
+            string email = $"{id}@student.hcmute.edu.vn";
             string phone = TextBoxPhone.Text;
             string adrs = TextBoxAddress.Text;
             string gender = "Male";
@@ -193,7 +194,7 @@ namespace ListAndEditForm1
             else if (verif())
             {
                 PictureBoxStudentImage.Image.Save(pic, PictureBoxStudentImage.Image.RawFormat);
-                if (student.insertStudent(id, fname, lname, bdate, gender, phone, adrs, pic))
+                if (student.insertStudent(id, fname, lname, bdate,email, gender, phone, adrs, pic))
                 {
                     MessageBox.Show("New Student Added", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

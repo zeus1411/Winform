@@ -37,6 +37,7 @@
             this.btnprint = new System.Windows.Forms.Button();
             this.stdTableAdapter = new ListAndEditForm1.QLSVDBDataSet3TableAdapters.stdTableAdapter();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.stdBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,7 +48,6 @@
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.selectedCourseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.stdBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.qLSVDBDataSet5BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.qLSVDBDataSet5 = new ListAndEditForm1.QLSVDBDataSet5();
             this.stdTableAdapter1 = new ListAndEditForm1.QLSVDBDataSet5TableAdapters.stdTableAdapter();
@@ -73,7 +73,7 @@
             // 
             this.semesterlabel.AutoSize = true;
             this.semesterlabel.Font = new System.Drawing.Font("Agency FB", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.semesterlabel.Location = new System.Drawing.Point(843, 41);
+            this.semesterlabel.Location = new System.Drawing.Point(1052, 42);
             this.semesterlabel.Name = "semesterlabel";
             this.semesterlabel.Size = new System.Drawing.Size(121, 35);
             this.semesterlabel.TabIndex = 1;
@@ -141,6 +141,11 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1336, 391);
             this.dataGridView1.TabIndex = 5;
+            // 
+            // stdBindingSource1
+            // 
+            this.stdBindingSource1.DataMember = "std";
+            this.stdBindingSource1.DataSource = this.qLSVDBDataSet5BindingSource;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -221,11 +226,6 @@
             this.pictureDataGridViewImageColumn.MinimumWidth = 6;
             this.pictureDataGridViewImageColumn.Name = "pictureDataGridViewImageColumn";
             this.pictureDataGridViewImageColumn.Width = 125;
-            // 
-            // stdBindingSource1
-            // 
-            this.stdBindingSource1.DataMember = "std";
-            this.stdBindingSource1.DataSource = this.qLSVDBDataSet5BindingSource;
             // 
             // qLSVDBDataSet5BindingSource
             // 

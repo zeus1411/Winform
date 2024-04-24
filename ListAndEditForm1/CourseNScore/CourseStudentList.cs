@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -90,10 +91,15 @@ namespace ListAndEditForm1.CourseNScore
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            
-            SqlCommand command = new SqlCommand("SELECT * FROM std WHERE CONCAT(id,fname,lname,address,SelectedCourse)LIKE '%" + txtnamecourse.Text + "%'");
-            
-            fillGrid(command);
+
+            PrintDialog printDlg = new PrintDialog();
+            PrintDocument printDoc = new PrintDocument();
+            printDoc.DocumentName = ("Print Document");
+            printDlg.Document = (printDoc);
+            printDlg.AllowSelection = (true);
+            printDlg.AllowSomePages = (true);
+
+            if (printDlg.ShowDialog() == DialogResult.OK) printDoc.Print();
         }
 
         private void fillGrid(SqlCommand command)
@@ -154,5 +160,7 @@ namespace ListAndEditForm1.CourseNScore
         {
 
         }
+
+       
     }
 }

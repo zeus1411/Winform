@@ -69,5 +69,15 @@ namespace ListAndEditForm1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _416369933_1418127692473809_2069977026900754887_n {
+            get {
+                object obj = ResourceManager.GetObject("416369933_1418127692473809_2069977026900754887_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

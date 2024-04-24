@@ -118,7 +118,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ListAndEditForm1.Properties.Resources._20230620_035549551_iOS;
+            this.pictureBox1.Image = global::ListAndEditForm1.Properties.Resources._416369933_1418127692473809_2069977026900754887_n;
             this.pictureBox1.Location = new System.Drawing.Point(59, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 138);
