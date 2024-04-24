@@ -90,6 +90,18 @@ namespace ListAndEditForm1.Score
             return table;
         }
 
+        public DataTable avgScoreByCourse()
+        {
+            SqlCommand command = new SqlCommand();
+            command.Connection = mydb.getConnection;
+            command.CommandText  = ("SELECT Course.label, avg(score.student_score) as 'Average Score' FROM Course, score WHERE course.Id = score.course_id GROUP BY Course.label");
+
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+            DataTable table = new DataTable();
+            adapter.Fill(table);
+            return table;
+
+        }
 
 
     }

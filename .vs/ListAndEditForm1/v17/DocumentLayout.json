@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\ListandEdit\\ListandEdit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|e:\\listandedit\\listandedit\\listandeditform1\\coursenscore\\coursestudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|solutionrelative:listandeditform1\\coursenscore\\coursestudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|e:\\listandedit\\listandedit\\listandeditform1\\score\\managescoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|solutionrelative:listandeditform1\\score\\managescoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|e:\\listandedit\\listandedit\\listandeditform1\\coursenscore\\coursestudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|solutionrelative:listandeditform1\\coursenscore\\coursestudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|e:\\listandedit\\listandedit\\listandeditform1\\score\\managescoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|solutionrelative:listandeditform1\\score\\managescoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|e:\\listandedit\\listandedit\\listandeditform1\\score\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E23E3D72-2513-4F13-8CB0-444BCC5201DF}|ListAndEditForm1\\ListAndEditForm1.csproj|solutionrelative:listandeditform1\\score\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CourseStudentList.cs",
-              "DocumentMoniker": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "RelativeDocumentMoniker": "ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "ToolTip": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "RelativeToolTip": "ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAEwHUAAAAAAAAA",
+              "Title": "ManageScoresForm.cs",
+              "DocumentMoniker": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "RelativeDocumentMoniker": "ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "ToolTip": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "RelativeToolTip": "ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAswHcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T07:32:23.663Z",
+              "WhenOpened": "2024-04-24T09:32:03.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CourseStudentList.cs [Design]",
-              "DocumentMoniker": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "RelativeDocumentMoniker": "ListAndEditForm1\\CourseNScore\\CourseStudentList.cs",
-              "ToolTip": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\CourseNScore\\CourseStudentList.cs [Design]",
-              "RelativeToolTip": "ListAndEditForm1\\CourseNScore\\CourseStudentList.cs [Design]",
+              "Title": "ManageScoresForm.cs [Design]",
+              "DocumentMoniker": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "RelativeDocumentMoniker": "ListAndEditForm1\\Score\\ManageScoresForm.cs",
+              "ToolTip": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\ManageScoresForm.cs [Design]",
+              "RelativeToolTip": "ListAndEditForm1\\Score\\ManageScoresForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T07:19:51.643Z",
+              "WhenOpened": "2024-04-24T09:31:53.695Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SCORE.cs",
+              "DocumentMoniker": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\SCORE.cs",
+              "RelativeDocumentMoniker": "ListAndEditForm1\\Score\\SCORE.cs",
+              "ToolTip": "E:\\ListandEdit\\ListandEdit\\ListAndEditForm1\\Score\\SCORE.cs",
+              "RelativeToolTip": "ListAndEditForm1\\Score\\SCORE.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAADwv1sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T08:50:53.639Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -113,5 +113,11 @@ namespace ListAndEditForm1.Score
                 }
             }
         }
+
+        private void buttonAvg_Click(object sender, EventArgs e)
+        {
+            avgScoreByCourseForm avgSc = new avgScoreByCourseForm();
+            avgSc.Show(this);
+        }
     }
 }

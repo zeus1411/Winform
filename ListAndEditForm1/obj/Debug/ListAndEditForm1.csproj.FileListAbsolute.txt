@@ -262,3 +262,5 @@ E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.csproj.Co
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndE.1E4B115F.Up2Date
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.exe
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.pdb
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Score.avgResult.resources
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Score.avgScoreByCourseForm.resources

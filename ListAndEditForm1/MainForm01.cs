@@ -109,5 +109,11 @@ namespace ListAndEditForm1
             ManageScoresForm msf = new ManageScoresForm();
             msf.Show(this);
         }
+
+        private void avgScoreByToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            avgScoreByCourseForm avgScore = new avgScoreByCourseForm();
+            avgScore.Show(this);
+        }
     }
 }
