@@ -86,6 +86,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact\EditContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\EditContact.Designer.cs">
+      <DependentUpon>EditContact.cs</DependentUpon>
+    </Compile>
     <Compile Include="CourseNScore\AddCourseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,25 @@
     <Compile Include="CourseNScore\RemoveCourseForm.Designer.cs">
       <DependentUpon>RemoveCourseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contact\AddContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\AddContact.Designer.cs">
+      <DependentUpon>AddContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\HumanResourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\HumanResourceForm.Designer.cs">
+      <DependentUpon>HumanResourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaticClass.cs" />
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLSVDBDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -153,6 +178,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QLSVDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLSVDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLSVDBDataSet6.xsd</DependentUpon>
     </Compile>
     <Compile Include="Score\AddScoreForm.cs">
       <SubType>Form</SubType>
@@ -245,6 +275,10 @@
     <Compile Include="Student\UpdateDeleteStudentForm.Designer.cs">
       <DependentUpon>UpdateDeleteStudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Userr.cs" />
+    <EmbeddedResource Include="Contact\EditContact.resx">
+      <DependentUpon>EditContact.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CourseNScore\AddCourseForm.resx">
       <DependentUpon>AddCourseForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -265,6 +299,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CourseNScore\RemoveCourseForm.resx">
       <DependentUpon>RemoveCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\AddContact.resx">
+      <DependentUpon>AddContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\HumanResourceForm.resx">
+      <DependentUpon>HumanResourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Score\AddScoreForm.resx">
       <DependentUpon>AddScoreForm.cs</DependentUpon>
@@ -395,6 +438,17 @@
     </None>
     <None Include="QLSVDBDataSet5.xss">
       <DependentUpon>QLSVDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLSVDBDataSet6.xsc">
+      <DependentUpon>QLSVDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLSVDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLSVDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLSVDBDataSet6.xss">
+      <DependentUpon>QLSVDBDataSet6.xsd</DependentUpon>
     </None>
     <None Include="Resources\20230620_035549551_iOS.jpg" />
   </ItemGroup>

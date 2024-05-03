@@ -264,3 +264,7 @@ E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.exe
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.pdb
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Score.avgResult.resources
 E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Score.avgScoreByCourseForm.resources
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.User.resources
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Human.AddContact.resources
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Human.HumanResourceForm.resources
+E:\ListandEdit\ListandEdit\ListAndEditForm1\obj\Debug\ListAndEditForm1.Contact.EditContact.resources

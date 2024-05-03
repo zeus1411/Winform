@@ -19,7 +19,7 @@ namespace ListAndEditForm1.CourseNScore
         MY_DB mydb = new MY_DB();
         private SqlConnection connection;
         private SqlCommand command;
-        public int studentid;
+        public int studentid { get; set; }
 
 
 

@@ -194,7 +194,7 @@ namespace ListAndEditForm1
             else if (verif())
             {
                 PictureBoxStudentImage.Image.Save(pic, PictureBoxStudentImage.Image.RawFormat);
-                if (student.insertStudent(id, fname, lname, bdate,email, gender, phone, adrs, pic))
+                if (student.insertStudent(id, fname, lname, bdate, email, gender, phone, adrs, pic))
                 {
                     MessageBox.Show("New Student Added", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -216,6 +216,8 @@ namespace ListAndEditForm1
 
         private void Managestudentform_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'qLSVDBDataSet6.std' table. You can move, or remove it, as needed.
+            this.stdTableAdapter1.Fill(this.qLSVDBDataSet6.std);
 
         }
 
@@ -311,7 +313,7 @@ namespace ListAndEditForm1
 
         private void dataGridView1_DoubleClick_1(object sender, EventArgs e)
         {
-            
+
         }
 
         private void LabelTotalStudent_Click_1(object sender, EventArgs e)

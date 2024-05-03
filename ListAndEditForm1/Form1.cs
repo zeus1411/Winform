@@ -20,24 +20,55 @@ namespace ListAndEditForm1
 
         private void bt_Login_Click(object sender, EventArgs e)
         {
-            MY_DB db = new MY_DB();
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            DataTable table = new DataTable();
-            SqlCommand command = new SqlCommand("SELECT * FROM log_in WHERE username = @User AND password = @Pass", db.getConnection);
-            command.Parameters.Add("@User", SqlDbType.VarChar).Value = TextBoxUserName.Text;
-            command.Parameters.Add("@Pass", SqlDbType.VarChar).Value = TextBoxPassword.Text;
-            adapter.SelectCommand = command;
+            if(rbtStudent.Checked)
+            {
+                MY_DB db = new MY_DB();
+                SqlDataAdapter adapter = new SqlDataAdapter();
+                DataTable table = new DataTable();
+                SqlCommand command = new SqlCommand("SELECT * FROM log_in WHERE username = @User AND password = @Pass", db.getConnection);
+                command.Parameters.Add("@User", SqlDbType.VarChar).Value = TextBoxUserName.Text;
+                command.Parameters.Add("@Pass", SqlDbType.VarChar).Value = TextBoxPassword.Text;
+                adapter.SelectCommand = command;
 
-            adapter.Fill(table);
-            if (table.Rows.Count > 0)
-            {
-                //MessageBox.Show("Ok , next time will go to Main Menu of App");
-                this.DialogResult = DialogResult.OK;
+                adapter.Fill(table);
+
+
+                if (table.Rows.Count > 0)
+                {
+                    //MessageBox.Show("Ok , next time will go to Main Menu of App");
+                    this.DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username Or Password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
             }
-            else
+            else if(rbtHumanResource.Checked)
             {
-                MessageBox.Show("Invalid Username Or Password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MY_DB db = new MY_DB();
+                SqlDataAdapter adapter = new SqlDataAdapter();
+                DataTable table = new DataTable();
+                SqlCommand command = new SqlCommand("SELECT * FROM log_in WHERE username = @User AND password = @Pass", db.getConnection);
+                command.Parameters.Add("@User", SqlDbType.VarChar).Value = TextBoxUserName.Text;
+                command.Parameters.Add("@Pass", SqlDbType.VarChar).Value = TextBoxPassword.Text;
+                adapter.SelectCommand = command;
+
+                adapter.Fill(table);
+
+
+                if (table.Rows.Count > 0)
+                {
+                    //MessageBox.Show("Ok , next time will go to Main Menu of App");
+                    int userid = Convert.ToInt16(table.Rows[0][0].ToString());
+                     
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username Or Password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -70,6 +101,12 @@ namespace ListAndEditForm1
         private void TextBoxPassword_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linklbNewUser_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            User user = new User();
+            user.Show(this);
         }
     }
 }

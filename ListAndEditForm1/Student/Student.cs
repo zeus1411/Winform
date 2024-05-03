@@ -49,7 +49,7 @@ namespace ListAndEditForm1
             command.Parameters.Add("@id", SqlDbType.Int).Value = Id;
             command.Parameters.Add("@fn", SqlDbType.VarChar).Value = fname;
             command.Parameters.Add("@ln", SqlDbType.VarChar).Value = lname;
-            command.Parameters.Add("@bdt", SqlDbType.VarChar).Value = mail;
+            command.Parameters.Add("@mail", SqlDbType.VarChar).Value = mail;
             command.Parameters.Add("@bdt", SqlDbType.DateTime).Value = bdate;
             command.Parameters.Add("@gdr", SqlDbType.VarChar).Value = gender;
             command.Parameters.Add("@phn", SqlDbType.VarChar).Value = phone;
@@ -70,6 +70,7 @@ namespace ListAndEditForm1
             }
 
         }
+        
         
         public DataTable getStudents(SqlCommand command)
         {
